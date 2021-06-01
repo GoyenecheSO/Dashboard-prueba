@@ -1,0 +1,11 @@
+.welcome{
+    color: #417ECD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.welcome hr {
+    width: 80%;
+}

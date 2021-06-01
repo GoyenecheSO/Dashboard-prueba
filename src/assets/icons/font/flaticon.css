@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("./flaticon.ttf?8b950c5afe1a44ceff14fc566bedb439") format("truetype"),
+url("./flaticon.woff?8b950c5afe1a44ceff14fc566bedb439") format("woff"),
+url("./flaticon.woff2?8b950c5afe1a44ceff14fc566bedb439") format("woff2"),
+url("./flaticon.eot?8b950c5afe1a44ceff14fc566bedb439#iefix") format("embedded-opentype"),
+url("./flaticon.svg?8b950c5afe1a44ceff14fc566bedb439#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-settings:before {
+    content: "\f101";
+}
+.flaticon-user:before {
+    content: "\f102";
+}
+.flaticon-bogota:before {
+    content: "\f103";
+}
+.flaticon-la-ermita:before {
+    content: "\f104";
+}
+.flaticon-silletero:before {
+    content: "\f105";
+}
+.flaticon-ruana:before {
+    content: "\f106";
+}
+.flaticon-escudo-de-armas:before {
+    content: "\f107";
+}
+.flaticon-montana:before {
+    content: "\f108";
+}
+.flaticon-calor:before {
+    content: "\f109";
+}
+.flaticon-frio:before {
+    content: "\f10a";
+}
+.flaticon-caliente:before {
+    content: "\f10b";
+}
+.flaticon-tejido-que-absorbe-la-humedad:before {
+    content: "\f10c";
+}
+.flaticon-barometro:before {
+    content: "\f10d";
+}
+.flaticon-description:before {
+    content: "\f10e";
+}

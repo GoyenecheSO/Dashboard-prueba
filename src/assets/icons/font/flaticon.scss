@@ -1,0 +1,81 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?8b950c5afe1a44ceff14fc566bedb439") format("truetype"),
+url("./flaticon.woff?8b950c5afe1a44ceff14fc566bedb439") format("woff"),
+url("./flaticon.woff2?8b950c5afe1a44ceff14fc566bedb439") format("woff2"),
+url("./flaticon.eot?8b950c5afe1a44ceff14fc566bedb439#iefix") format("embedded-opentype"),
+url("./flaticon.svg?8b950c5afe1a44ceff14fc566bedb439#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "settings": "\f101",
+    "user": "\f102",
+    "bogota": "\f103",
+    "la-ermita": "\f104",
+    "silletero": "\f105",
+    "ruana": "\f106",
+    "escudo-de-armas": "\f107",
+    "montana": "\f108",
+    "calor": "\f109",
+    "frio": "\f10a",
+    "caliente": "\f10b",
+    "tejido-que-absorbe-la-humedad": "\f10c",
+    "barometro": "\f10d",
+    "description": "\f10e",
+);
+
+.flaticon-settings:before {
+    content: map-get($flaticon-map, "settings");
+}
+.flaticon-user:before {
+    content: map-get($flaticon-map, "user");
+}
+.flaticon-bogota:before {
+    content: map-get($flaticon-map, "bogota");
+}
+.flaticon-la-ermita:before {
+    content: map-get($flaticon-map, "la-ermita");
+}
+.flaticon-silletero:before {
+    content: map-get($flaticon-map, "silletero");
+}
+.flaticon-ruana:before {
+    content: map-get($flaticon-map, "ruana");
+}
+.flaticon-escudo-de-armas:before {
+    content: map-get($flaticon-map, "escudo-de-armas");
+}
+.flaticon-montana:before {
+    content: map-get($flaticon-map, "montana");
+}
+.flaticon-calor:before {
+    content: map-get($flaticon-map, "calor");
+}
+.flaticon-frio:before {
+    content: map-get($flaticon-map, "frio");
+}
+.flaticon-caliente:before {
+    content: map-get($flaticon-map, "caliente");
+}
+.flaticon-tejido-que-absorbe-la-humedad:before {
+    content: map-get($flaticon-map, "tejido-que-absorbe-la-humedad");
+}
+.flaticon-barometro:before {
+    content: map-get($flaticon-map, "barometro");
+}
+.flaticon-description:before {
+    content: map-get($flaticon-map, "description");
+}
